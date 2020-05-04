@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Todo List',
       home: TodoList(),
+      debugShowCheckedModeBanner: false
     );
   }
 }
